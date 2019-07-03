@@ -1,10 +1,13 @@
-def reverse(s):
-  str=" "
-  for i in s:
-  str=i+str
+def reverse(s): 
+str = "" 
+for i in s: 
+	str = i + str
 return str
-s=input()
-print("original string: ")
-print(s)
-print("reversed string: ")
-print(reverse(s))
+
+s = input()
+
+print ("The original string is : ",end="") 
+print (s) 
+
+print ("The reversed string(using loops) is : ",end="") 
+print (reverse(s)) 
