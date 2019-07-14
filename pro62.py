@@ -6,5 +6,5 @@ for i in range(0,len(a)-1):
         m=st1[i:j+1]
         l=m[::-1]
         if m==l:
-            c.append(len(a)-len(l))
+            n.append(len(a)-len(l))
 print(min(n))
