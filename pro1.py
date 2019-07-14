@@ -1,6 +1,6 @@
-import a
+import os
 b=int(input())
 lst=[]
 for i in range(b):
     lst.append(input())
-print(a.path.commonprefix(lst))
+print(os.path.commonprefix(lst))
