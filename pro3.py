@@ -1,8 +1,8 @@
-a,b=input().split()
-r=abs(len(b)-len(a))
-for l in range(len(a)):
-  if(len(b)==1 and p[l] in a):
+m,p=input().split()
+r1=abs(len(p)-len(m))
+for k in range(len(m)):
+  if(len(p)==1 and p[k] in m):
     break
-  if(a[l]!=b[l]):
-    r=r+1
-print(r)
+  if(m[k]!=p[k]):
+    r1=r1+1
+print(r1)
